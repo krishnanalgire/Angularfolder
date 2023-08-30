@@ -1,0 +1,13 @@
+
+{{msg}}
+<h2>  Spring Boot With  angular Integration </h2>
+<form>
+  Contact Name: <input type="text" name="name"[(ngModel)]="contact.name"/> <br/>
+
+  Contact Email: <input type="text" name="emsil"[(ngModel)]="contact.email"/> <br/>
+
+  Contact naumber: <input type="text" name="phon"[(ngModel)]="contact.phon"/> <br/>
+
+  <input type="button" value= "Save" (click)="saveContact()"/>
+
+</form>
